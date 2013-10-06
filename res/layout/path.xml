@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/report_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/radioGenderGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+	    <RadioButton
+	        android:id="@+id/A"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:checked="false"
+	        android:text="RadioButton" />
+	
+	    <RadioButton
+	        android:id="@+id/B"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="RadioButton" />
+	
+	    <RadioButton
+	        android:id="@+id/C"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="RadioButton" />
+    </RadioGroup>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onBack"
+            android:text="@string/back" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onNext"
+            android:text="@string/next" />
+
+    </TableRow>
+
+</LinearLayout>

@@ -2,8 +2,87 @@
 <resources>
 
     <string name="app_name">L2</string>
-    <string name="input">重量(kg)</string>
-    <string name="menu_settings">關於</string>
-    <string name="GO">換算</string>
+    <string name="input">測測你的困境承受力有多強？</string>
+    <string name="menu_settings">Settings</string>
+    <string name="GO">開始測驗</string>
+    <string name="about">關於</string>
+    <string name="net">官網</string>
+    <string name="back">返回</string>
+    <string name="next">下一題</string>
+    <string-array name="qarray">
+        <item>早上出門，發現車子發動不起來，你會：</item>
+        <item>進入麥當勞以後，你發現沒有空位置了，你會：</item>
+        <item>上司要你第二天交文稿，你根本還沒有做，你會：</item>
+        <item>你去看望一位朋友，到了小區才發現電話號碼忘記了，你又不知道門牌號碼，你會：</item>
+        <item>下班的時候，突然下雨了，你又沒有雨傘，你會：</item>
+        <item>你去倒水，才發現辦公室的飲水機壞了，你會：</item>
+        <item>新買的西服第一天穿就破了，你會：</item>
+        <item>和客戶談話內容都準備好了，臨時接到上司通知，改變約見對象，你會：</item>
+        <item>手邊有兩本一樣大小的書，你會怎樣放：</item>
+        <item>你剛吃飽，又面臨滿滿一桌的“工作餐”，你會：</item>
+        <item>聖誕節，兩個異性好朋友都向你發出約會邀請，你會：</item>
+        <item>對於一件很棘手的工作，你會：</item>
+        <item>你會去做一件並不熟悉的事情嗎？</item>
+    </string-array>
+    <string-array name="ansdata">
+        <item>15分以下：\n承受指數：★\n
+你性情平靜，喜歡慢節奏的工作，認為工作就是一種慢條斯理的行為，你能夠按著既定的規則和程序完成事情，你喜歡風平浪靜的生活，對工作也如此。所以，你還是做那些常規而又重複的工作吧，至少不會出錯，落得個心安理得。</item>
+        <item>16-25分：\n承受指數：★★\n
+氣質內斂的你，似乎有意掩飾內心的熱情，你不想讓別人覺察出你的真實感受。你所要做的就是給自己設立一個承受度，這樣，對待困境，你會胸有成竹，並且在困境中逐漸成熟起來。</item>
+        <item>26分以上：\n承受指數：★★★\n
+你有著非常明確的職場奮鬥目標，你會堅持朝著這個方向努力，這也就說明了，你做好了承受困境的心理準備。所以，你能夠在困境面前表現出堅韌和不屈，相信一切都會咬咬牙就會過去。</item>
+    </string-array>
+        <string-array name="sqarray">
+        <item>繼續發動</item>
+        <item>叫來修理人員</item>
+        <item>趕快乘坐公汽上班</item>
 
+        <item>等一會兒</item>
+        <item>買一份帶走</item>
+        <item>離開，下次再來吃</item>
+
+        <item>直接告訴上司自己完不成。</item>
+        <item>隨便弄一篇先對付過去</item>
+        <item>晚上不睡覺也要趕出來。</item>
+
+        <item>只有離開了</item>
+        <item>打電話給可以找到這個朋友的人，詢問住址</item>
+        <item>到物業公司查找門牌號碼</item>
+
+        <item>衝進雨中跑回家</item>
+        <item>和別人共用雨傘</item>
+        <item>正好在辦公室做沒做完的事情。</item>
+
+        <item>回到座位上，不喝了</item>
+        <item>告訴大家飲水機壞了</item>
+        <item>打電話叫來修理工人</item>
+
+        <item>自認倒霉，拿去修補</item>
+        <item>找商場換一件</item>
+        <item>不但要商場換衣服，還要賠償交通費</item>
+
+        <item>很氣惱，方寸大亂</item>
+        <item>服從安排</item>
+        <item>據理力爭，按計劃做事</item>
+
+        <item>並列放好</item>
+        <item>一本書壓在另一本上面</item>
+        <item>把兩本書都豎起來靠在某處</item>
+
+        <item>什麼都不吃</item>
+        <item>只喝飲料</item>
+        <item>一樣嚐一口</item>
+
+        <item>都不去</item>
+        <item>選擇喜歡的那一個赴約</item>
+        <item>你邀請兩個人一起玩</item>
+
+        <item>不去碰它</item>
+        <item>看別人怎麼完成</item>
+        <item>和同事共同完成</item>
+
+        <item>不會</item>
+        <item>不一定</item>
+        <item>一定會</item>
+    </string-array>
 </resources>
