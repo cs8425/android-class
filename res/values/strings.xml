@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">L2</string>
+    <string name="input">重量(kg)</string>
+    <string name="menu_settings">關於</string>
+    <string name="GO">換算</string>
+
+</resources>
